@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Produced by Beyond Compare 4 from Scooter Software -->
+<BCPreferences Version="1" MinVersion="1">
+	<TBcPrefs>
+		<FilterPresets Value="All files&#2;*.*&#4;C++ source&#2;*.cpp;*.hpp;*.c;*.h;*.cc&#4;Delphi source&#2;*.pas;*.inc;*.dfm;*.nfm;*.xfm;*.dpr;*.dpk&#4;HTML source&#2;*.htm;*.html;*.xml;*.jpg;*.gif;*.png&#4;Java source&#2;*.java;*.jj;*.jjt&#4;huckberry&#2;-*.swp;-*.swo;-*.swn;-.gitignore;-.git/;-tmp/&#4;huckberry&#2;-*.swp;-*.swo;-*.swn;-*.sw*;-*.*~;-.gitignore;-.git/;-tmp/;-log/&#4;huckberry3&#2;-*.swp;-*.swo;-*.swn;-.gitignore;-*.*~;-;-.git/;-tmp/;-coverage/;-public/&#4;huckberry3&#2;-*.swp;-*.swo;-*.swn;-*.sw*;-.gitignore;-*.*~;-.git/;-tmp/;-coverage/;-public/;-log/&#4;"/>
+		<ToolbarShowCaptions Value="False"/>
+		<Workspaces>
+			<Item Value="&#1;">
+				<Windows>
+					<_0>
+						<PosStr Value="-10;14;1350;730"/>
+						<Tabs>
+							<_0>
+								<TDirCompareSession Value="">
+									<Filters>
+										<NameFilter Value="-*.swp;-*.swo;-*.swn;-*.sw*;-.gitignore;-*.*~;-.git/;-tmp/;-coverage/;-public/;-log/"/>
+									</Filters>
+									<Specs>
+										<Left Value="/home/owner/work/huckberry/Huckberry"/>
+										<Right Value="/home/owner/work/huckberry/HuckberryNewGiftCard"/>
+									</Specs>
+									<State>
+										<ColModifiedWidth Value="123"/>
+										<ColSizeWidth Value="80"/>
+										<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
+									</State>
+								</TDirCompareSession>
+								<ZOrder Value="1"/>
+							</_0>
+							<_1>
+								<TTextCompareSession Value="">
+									<Specs>
+										<Left Value="/home/owner/work/huckberry/Huckberry/app/assets/stylesheets/application/_order.scss"/>
+										<Right Value="/home/owner/work/huckberry/HuckberryNewGiftCard/app/assets/stylesheets/application/_order.scss"/>
+									</Specs>
+								</TTextCompareSession>
+								<ParentTab Value="0"/>
+								<ParentWindow Value="0"/>
+								<ZOrder Value="0"/>
+							</_1>
+						</Tabs>
+						<ZOrder Value="0"/>
+					</_0>
+				</Windows>
+			</Item>
+			<Item Value="s3 v w4">
+				<Windows>
+					<_0>
+						<PosStr Value="1280;24;2646;768"/>
+						<Tabs>
+							<_0>
+								<TDirCompareSession Value="">
+									<Rules>
+										<UseTimestampComparison Value="False"/>
+									</Rules>
+									<Specs>
+										<Left Value="/home/owner/Downloads"/>
+										<Right Value="/media/owner/Seagate_3TB/Archive/20180619/toji/home/owner/Downloads"/>
+									</Specs>
+									<State>
+										<ColModifiedWidth Value="113"/>
+										<ColSizeWidth Value="150"/>
+										<DisplayFilter Value="[showSame]"/>
+									</State>
+								</TDirCompareSession>
+								<ZOrder Value="2"/>
+							</_0>
+							<_1>
+								<TDirCompareSession Value="">
+									<Rules>
+										<UseTimestampComparison Value="False"/>
+									</Rules>
+									<Specs>
+										<Left Value="/media/owner/Seagate_3TB/Music"/>
+										<Right Value="/media/owner/Western_4TB/Music"/>
+									</Specs>
+									<State>
+										<ColModifiedWidth Value="113"/>
+										<ColSizeWidth Value="150"/>
+									</State>
+								</TDirCompareSession>
+								<ZOrder Value="0"/>
+							</_1>
+							<_2>
+								<TDirCompareSession Value="">
+									<Specs>
+										<Left Value="/media/owner/Seagate_3TB/Temp"/>
+										<Right Value="/media/owner/Western_4TB/temp"/>
+									</Specs>
+									<State>
+										<ColModifiedWidth Value="113"/>
+										<ColSizeWidth Value="150"/>
+									</State>
+								</TDirCompareSession>
+								<ZOrder Value="1"/>
+							</_2>
+						</Tabs>
+						<ZOrder Value="0"/>
+					</_0>
+				</Windows>
+			</Item>
+		</Workspaces>
+	</TBcPrefs>
+</BCPreferences>

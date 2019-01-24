@@ -77,13 +77,10 @@ function options() {
     done
 }
 
-
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
-#old PS1='${ret_status} %{$fg[cyan]%}%c%{$reset_color%} $(git_prompt_info)'
 PROMPT='${ret_status} %{$fg[magenta]%}%n@%m %{$fg[cyan]%}%~%{$reset_color%} %# '
-#%{$fg_bold[red]%}%n@%m:"}%{$fg[cyan]%}%~%#%{$reset_color%}
 RPROMPT='$(git_prompt_info)'
 
 # export MANPATH="/usr/local/man:$MANPATH"

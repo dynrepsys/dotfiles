@@ -7,8 +7,6 @@ set display+=lastline "show last line even if it doesn't fit
 set encoding=utf-8
 set fileencoding=utf-8
 scriptencoding utf-8
-"set showbreak=↪\ 
-"set listchars=tab:→\ ,eol:↲,nbsp:␣,trail:•,extends:⟩,precedes:⟨
 set listchars=tab:▷⋅,trail:⋅,nbsp:⋅,eol:$
 set nolist "whitespace off
 
@@ -53,11 +51,8 @@ source	~/.vim/functions.vim
 set diffexpr=MyDiff()
 
 set statusline=
-"set statusline+=%<\
-"set statusline=%#identifier#
 set statusline+=[%f]    "filename
 set statusline+=[%{strlen(&ft)?&ft:'none'},  " filetype
-"set statusline+=%{strlen(&fenc)?&fenc:&enc}, " encoding
 set statusline+=%{&fileformat}]
 set statusline+=%*
 set statusline+=%=      "left/right separator
@@ -79,31 +74,24 @@ filetype off                  " vundle required
 
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
-"call vundle#rc()
 call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'thaerkh/vim-workspace'
-"Plugin 'unblevable/quick-scope'
 Plugin 'scrooloose/nerdtree'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
-"Plugin 'yuttie/comfortable-motion.vim'
 Plugin 'grep.vim'
 Plugin 'tpope/vim-rsi'
 Plugin 'jeffkreeftmeijer/vim-numbertoggle'
 Plugin 'mbbill/undotree'
 "Plugin 'pangloss/vim-javascript'
-"Plugin 'kchmck/vim-coffee-script'
-"Bundle 'slim-template/vim-slim.git'
-"Plugin 'mxw/vim-jsx'
 "Plugin 'leafgarland/typescript-vim'
 Plugin 'ryanoasis/vim-devicons' "must be last
 
 call vundle#end()
-"call vundle#config#require(g:bundles)
 
 filetype on                  " required
 filetype plugin on
@@ -120,19 +108,13 @@ hi SpecialKey gui=NONE guifg=#cc8000
 let g:workspace_autosave = 0
 let g:workspace_autosave_untrailspaces = 0
 
-"let g:qs_highlight_on_keys = ['f', 'F', 't', 'T']
-"let g:qs_highlight_on_keys = ['f', 'F']
-
 map <C-n> :NERDTreeToggle<CR>
 
 let g:NERDCustomDelimiters = { 'vim': { 'left': '"' } }
 let g:NERDCustomDelimiters = { '.vimrc': { 'left': '"' } }
 
-"let g:airline_left_sep='>'
-"let g:airline_right_sep='<'
 let g:airline_theme='solarized'
 let g:airline_powerline_fonts = 1
-"set guifont=DejaVu\ Sans:s12 let g:airline#extensions#tabline#left_sep
 
 autocmd BufNewFile,BufRead,BufWrite *.apxc set syntax=java
 

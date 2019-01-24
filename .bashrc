@@ -76,8 +76,6 @@ esac
 if [ -x /usr/bin/dircolors ]; then
     test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
     alias ls='ls --color=auto'
-    #alias dir='dir --color=auto'
-    #alias vdir='vdir --color=auto'
 
     alias grep='grep --color=auto'
     alias fgrep='fgrep --color=auto'
@@ -114,9 +112,6 @@ if ! shopt -oq posix; then
 fi
 
 
-# set time
-#ntpdate -v ntp.ubuntu.com
-
 # originally 25 40 0
 # higher number -> more pressure
 # values = low high press
@@ -150,7 +145,3 @@ function set-title(){
 TITLE="\[\e]2;$*\a\]"
   PS1="${ORIG}${TITLE}"
 }
-
-xmodmap -e "remove Lock = Caps_Lock"
-xmodmap -e "keysym Caps_Lock = space"
-xmodmap -e "keycode 135 = Down" #135 = Menu
